@@ -1,6 +1,6 @@
 const UpdateProfile = () => {
   return (
-    <div>UpdateProfile</div>
+    <div>UpdateProfile - Under Construction</div>
   )
 }
 
