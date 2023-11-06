@@ -40,7 +40,7 @@ const PostDetails = () => {
             </p>
             <div className="flex-center gap-2 text-light-3">
                 <p className="subtle-semibold lg:small-regular">
-                    {formatDateString(post?.$createdAt)} 
+                    {post && post.$createdAt && formatDateString(post?.$createdAt)} 
                 </p>
                 -
                 <p className="subtle-semibold lg:small-regular">
